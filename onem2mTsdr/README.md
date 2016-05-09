@@ -1,5 +1,7 @@
 # IoTDM: OneM2M TSDR
 
+![](images/Slide1.jpg)
+
 # Overview
 
 The onem2m TSDR plugin was created to provide a way to send data from the oneM2M resource tree to the ODL Time Series
@@ -198,8 +200,33 @@ in POLL mode, every polling cycle can also produce MANY values to be sent to the
 batched and sent as a group to the TSDR.  The timestamps recorded are recorded when the polling interval occurs.  So,
 regardless of when the batched set is sent, the timestamps are correct.
 
-# Example Walk-through
-    
+## Team:
+
+- John Burns
+- Lionel Florit
+- Jan Medved
+
+### Project demo Link:
+
+[Find the code here](https://github.com/opendaylight/iotdm/tree/stable/beryllium/onem2mplugins/onem2mtsdr)
+
+### Social Tags:
+
+IOT, Open Source, oneM2M, plugins, TSDR
+
+### Project Kick-off Date:
+
+Mar 2016
+
+### Current Status:
+
+In progress - send questions to John Burns (johnburn@cisco.com) or Lionel Florit (lflorit@cisco.com)
+
+### References
+
+- [https://wiki.opendaylight.org/view/IoTDM:Main](https://wiki.opendaylight.org/view/IoTDM:Main)
+- [https://wiki.opendaylight.org/view/TSDR:Main](https://wiki.opendaylight.org/view/TSDR:Main)
+
 
 
 
