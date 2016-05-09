@@ -110,7 +110,14 @@ Onem2mDatastoreListener is an example of a helper function/class that can be use
      
 # How to Write a onem2m plugin
 
-[For more info, see](https://github.com/opendaylight/iotdm/blob/stable/beryllium/onem2mplugins/README.md)
+[Click HowToWriteAPlugin](https://github.com/opendaylight/iotdm/blob/stable/beryllium/onem2mplugins/README.md)
+
+# Sample Plugins
+
+## onem2m-tsdr
+
+Opendaylight support a Time Series database project.  The data in the oneM2M can be sent to the TSDR.  The following
+[project](https://github.com/CiscoDevNet/OneM2MPlugins/onem2mTsdr)
 
 ## Team:
 
@@ -124,7 +131,7 @@ Onem2mDatastoreListener is an example of a helper function/class that can be use
 
 ### Social Tags:
 
-IOT, Open Source, Sensors, Actuators, Policy, Policy Groups, Group Based Policy
+IOT, Open Source, oneM2M, plugins, DEPA
 
 ### Project Kick-off Date:
 
@@ -132,13 +139,12 @@ Mar 2016
 
 ### Current Status:
 
-In progress - send questions to Herb Wildfeuer (hwildfeu@cisco.com) or John Burns (johnburn@cisco.com)
+In progress - send questions to John Burns (johnburn@cisco.com) or Lionel Florit (lflorit@cisco.com)
 
 ### References
 
 - [https://wiki.opendaylight.org/view/IoTDM:Main](https://wiki.opendaylight.org/view/IoTDM:Main)
 
-- [https://developer.cisco.com/site/neXt/](https://developer.cisco.com/site/neXt/)
 
 
 
