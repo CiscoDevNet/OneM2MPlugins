@@ -125,10 +125,6 @@ Opendaylight support a Time Series database project.  The data in the oneM2M dat
 - Lionel Florit
 - Jan Medved
 
-### Project demo Link:
-
-[Find the code here](https://github.com/CiscoDevNet/OneM2MPlugins)
-
 ### Social Tags:
 
 IOT, Open Source, oneM2M, plugins, DEPA
