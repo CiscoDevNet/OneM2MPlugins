@@ -82,7 +82,7 @@ Onem2mDatastoreListener is an example of a helper function/class that can be use
  
          @Override
          public void onem2mResourceCreated(String hierarchicalResourceName, Onem2mResource onem2mResource) {
-             LOG.info("Onem2mTsdrProvider: onem2mResourceCreated h={}, id:{}, type:{}",
+             LOG.info("Onem2mDataStoreChangeHandler: onem2mResourceCreated h={}, id:{}, type:{}",
                      hierarchicalResourceName,
                      onem2mResource.getResourceId(),
                      onem2mResource.getResourceType());
@@ -91,7 +91,7 @@ Onem2mDatastoreListener is an example of a helper function/class that can be use
  
          @Override
          public void onem2mResourceChanged(String hierarchicalResourceName, Onem2mResource onem2mResource) {
-             LOG.info("Onem2mTsdrProvider: onem2mResourceChanged h={}, id:{}, type:{}",
+             LOG.info("Onem2mDataStoreChangeHandler: onem2mResourceChanged h={}, id:{}, type:{}",
                      hierarchicalResourceName,
                      onem2mResource.getResourceId(),
                      onem2mResource.getResourceType());
@@ -100,7 +100,7 @@ Onem2mDatastoreListener is an example of a helper function/class that can be use
  
          @Override
          public void onem2mResourceDeleted(String hierarchicalResourceName, Onem2mResource onem2mResource) {
-             LOG.info("Onem2mTsdrProvider: onem2mResourceDeleted h={}, id:{}, type:{}",
+             LOG.info("Onem2mDataStoreChangeHandler: onem2mResourceDeleted h={}, id:{}, type:{}",
                      hierarchicalResourceName,
                      onem2mResource.getResourceId(),
                      onem2mResource.getResourceType());
@@ -117,7 +117,7 @@ Onem2mDatastoreListener is an example of a helper function/class that can be use
 ## onem2m-tsdr
 
 Opendaylight support a Time Series database project.  The data in the oneM2M datastore can be sent to the TSDR.  The following
-[project](https://github.com/CiscoDevNet/OneM2MPlugins/onem2mTsdr)
+[project](https://github.com/CiscoDevNet/OneM2MPlugins/tree/master/onem2mTsdr)
 
 ## Team:
 
